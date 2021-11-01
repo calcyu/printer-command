@@ -1,0 +1,42 @@
+{
+  "name": "printer-command",
+  "version": "1.0.0",
+  "description": "打印机指令工具类，对TSC和ESC指令进行抽象封装，方便数据转换。",
+  "main": "./dist/index.js",
+  "types": "./types/index.d.ts",
+  "scripts": {
+    "build": "tsc -p ./tsconfig.json && yarn format",
+    "format": "prettier --write \"{src,types}/**/*.ts\" \"dist/**/*.js\"",
+    "lint": "eslint \"{src,types,libs,test}/**/*.ts\" --fix"
+  },
+  "files": [
+    "dist",
+    "types"
+  ],
+  "keywords": [
+    "printer",
+    "command",
+    "tsc",
+    "esc"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/calcyu/printer-command.git"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.2.0",
+    "@typescript-eslint/parser": "^5.2.0",
+    "eslint": "^8.1.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-standard": "14.1.1",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-promise": "^5.1.1",
+    "eslint-plugin-standard": "^5.0.0",
+    "prettier": "^2.4.1", 
+    "typescript": "^4.4.4"
+  },
+  "author": "calcyu",
+  "license": "MIT"
+}
