@@ -1,12 +1,12 @@
 {
   "compilerOptions": {
-    "target": "ES2015", /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "target": "ES6",
     "lib": [
       "es2015",
       "es2017",
       "dom"
-    ], /* Specify a set of bundled library declaration files that describe the target runtime environment. */
-    "module": "commonjs", /* Specify what module code is generated. */
+    ],
+    "module": "commonjs",
     "outDir": "./dist",
     "declaration": true,
     "declarationDir": "./types",
@@ -22,10 +22,9 @@
     "esModuleInterop": false,
     "noUnusedLocals": true,
     "noUnusedParameters": false,
-    "sourceMap": true, /* Specify an output folder for all emitted files. */
-    // "esModuleInterop": true, /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables `allowSyntheticDefaultImports` for type compatibility. */
-    "forceConsistentCasingInFileNames": true, /* Ensure that casing is correct in imports. */
-    "strict": true, /* Enable all strict type-checking options. */
+    "sourceMap": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
     "skipLibCheck": true
   },
   "include": [
@@ -34,37 +33,5 @@
   "exclude": [
     "**/*.spec.ts",
     "node_modules/**/*"
-  ] /* Skip type checking all .d.ts files. */
+  ]
 }
-// {
-//   "compilerOptions": {
-//     "target": "ES2015",
-//     "module": "commonjs",
-//     "outDir": "./src",
-//     "declaration": true,
-//     "declarationDir": "./types",
-//     "rootDir": "./ts_src",
-//     "types": [
-//       "node"
-//     ],
-//     "allowJs": false,
-//     "strict": true,
-//     "noImplicitAny": true,
-//     "strictNullChecks": true,
-//     "strictFunctionTypes": true,
-//     "strictBindCallApply": true,
-//     "strictPropertyInitialization": true,
-//     "noImplicitThis": true,
-//     "alwaysStrict": true,
-//     "esModuleInterop": false,
-//     "noUnusedLocals": true,
-//     "noUnusedParameters": true
-//   },
-//   "include": [
-//       "ts_src/**/*.ts"
-//   ],
-//   "exclude": [
-//       "**/*.spec.ts",
-//       "node_modules/**/*"
-//   ]
-// }

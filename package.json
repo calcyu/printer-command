@@ -1,6 +1,6 @@
 {
   "name": "printer-command",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "打印机指令工具类，对TSC和ESC指令进行抽象封装，方便数据转换。",
   "main": "./dist/index.js",
   "types": "./types/index.d.ts",

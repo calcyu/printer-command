@@ -8,7 +8,6 @@ export class TscCommand {
             const code = this.textEncoding.encode(content);
             for (let i = 0; i < code.length; ++i) {
                 this.command.push(code[i]);
-                console.log(code[i]);
             }
         }
         this.commandStr += content;
