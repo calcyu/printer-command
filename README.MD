@@ -10,6 +10,6 @@ import {TscCommand,EscCommand} from 'printer-command';
 const tsc = new TscCommand(new TextEncoder("utf-8"));
 tsc
 .setSize(40, 30)
-.setText(0, 0, "4", 1, 0, 0, "vue print test")
+.setText(0, 0, "4", 1, 0, 0, "Print test")
 .setPrint(1);
 ```
